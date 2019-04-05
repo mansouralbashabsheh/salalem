@@ -13,3 +13,5 @@ if (hamburgers.length > 0) {
 $(".hamburger").click(function () {
     $(".menu-humburger").toggleClass("active");
 });
+
+new WOW().init();

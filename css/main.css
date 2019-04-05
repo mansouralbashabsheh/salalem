@@ -296,9 +296,27 @@ content: '';
 .container-artborad9 .content-banner p{font-size:24px}
 .container-artborad9 .learner-engagment-img.left img{float:left}
 .container-artborad9 .learner-engagment-img.right img{float:right}
+.centerlized-hr{text-align:center}
+.centerlized-hr img{max-width:1000px; display:inline-block}
+.container-hr-adminarea{padding-top:80px;}
+.container-hr-adminarea h3{margin-bottom:30px}
 
 @media only screen and (max-width:768px)
 {
+    .content-banner h1{font-size:24px;text-align:center}
+    .header-artboard2  .menu-humburger{top:-90%}
+    .container-artborad4 .menu-humburger{top:-85%}
+    .container-artborad5 .menu-humburger{top:-70%}
+    .container-artborad6  .menu-humburger{top:-60%}
+    .container-artborad7 .menu-humburger{top:-55%}
+    .container-artborad8 .menu-humburger{top:-55%}
+    .container-artborad9 .menu-humburger{top:-55%}
+    .menu-humburger{top:-100%}
+    .actions-content{text-align:center}
+    .header-artboard2 .container-banner:before{    right: -15px;
+    top: -99px;}
+    .header-artboard3 .container-banner:before{top: -125px;}
+    .centerlized-hr img{max-width:100%}
     .process-desc{text-align:center}
     .process-img img{float:none;max-width:250px;display:inline-block;margin:20px 0px;}
     .process-img{text-align:center}
