@@ -1,0 +1,271 @@
+﻿@font-face {
+   font-family: 'Lato-Bold';
+    src: url('../fonts/Lato-Bold.eot');
+    src: local('ÃƒÂ¢Ã‹Å“Ã‚Âº'), url('../fonts/Lato-Bold.woff') format('woff'), url('../fonts/Lato-Bold.ttf') format('truetype'), url('../fonts/Lato-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+a:link, .btn {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    text-decoration: none;
+}
+
+
+body {
+    overflow-y: scroll;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Quicksand', sans-serif;
+
+    box-sizing:border-box
+}
+.menu-toggle {
+   margin-top: 10px;
+
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+}
+.hamburger, .cross {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.hamburger span {
+    display: block;
+    width: 18px;
+    height: 2px;
+    margin-bottom: 3px;
+    overflow: hidden;
+    position: relative;
+    background-color: #000;
+}
+.hamburger span:last-child {
+    margin: 0;
+}
+  .hamburger {
+      vertical-align: middle;
+    }
+
+
+  .hamburger-inner, .hamburger-inner:after, .hamburger-inner:before{width:25px;height:2px;}
+.hamburger-box {
+        margin-left: 5px;
+    margin-top: 5px;
+    width: 30px;
+}
+.hamburger-inner:before{top:-8px;}
+.hamburger-inner:after {
+    bottom: -8px;
+}
+.menu-humburger{display:none;
+    border-width: 0px;
+    background-color: #000000;
+    opacity: 0.56;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.active{display:block}
+
+{}
+.menu-humburger .items{
+    list-style: none;padding:10px;margin: 0;}
+.menu-humburger .items li {margin:0px;padding:8px;}
+.menu-humburger .items li a{color:#fff}
+.menu-humburger .items li:hover{
+        background-color: #999999;
+        border-radius:10px;
+}
+.container-banner img{max-width:100%;height:auto}
+.content-banner h1{font-family: 'lato-bold', sans-serif;}
+.pos-relative{position:relative;}
+.content-banner{position:absolute;top:35%;left:0px}
+.content-banner h6{margin-top:25px;font-size:20px;}
+.content-banner p{font-size:14px;}
+.actions-content .btn-outline-dark{margin-bottom:10px;font-size: 13px;border-radius:25px;margin-right:10px; margin-top:5px;font-family: 'Quicksand', sans-serif;width: 250px;
+    text-align: center;}
+.content-banner h6, .content-banner p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.we-work-with-container{background-color:#ececec;min-height:250px;}
+.we-work-with-container h3,.our-services h3 ,.unique-training-ex h3,
+.who-chose-salalem h3{font-size:20px;padding-top:15px;font-family: 'lato-bold'}
+.our-services-img img {max-width:100%;height:auto;}
+.our-services-img{clear:both}
+.our-services-desc{position:absolute;top:45%;}
+.our-services-desc p{text-transform:capitalize;font-size:16px;color:#808080}
+.unique-training-ex{    background-color: #ececec;}
+.unique-training-ex .item h6{font-family: 'lato-bold';text-align:center}
+.unique-training-ex .item p ,.who-chose-salalem .item p{font-size:12px;color:#000;margin-top:15px;text-align:center;padding-bottom:50px;}
+.unique-training-ex .item .img-contain ,.who-chose-salalem .img-contain {text-align:center}
+.unique-training-ex .item .img-contain img ,.who-chose-salalem .img-contain img{display:inline-block;max-width:100%;height:auto}
+.who-chose-salalem h3 {
+    margin-top: 40px;
+    margin-bottom:60px;
+}
+.who-chose-salalem .item p{font-weight:bold}
+.footer-links{list-style:none;padding:0px;}
+.footer-content{margin-top:50px;}
+.footer-content .item h6{font-weight:bold;margin-bottom:20px;}
+.footer-links li{margin-bottom:5px;}
+.copyright{font-size:14px;margin-bottom:20px;}
+.footer-links li a{color:#000}
+
+
+
+.header-artboard2 .container-banner{position:relative}
+.header-artboard2 .container-banner:before{  content: '';
+    background-image: url(../images/header-banner2.png);
+    position: absolute;
+    right: 0px;
+    top: -212px;
+    height: 140%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 145% 110%;
+}
+
+.header-artboard2 .container-banner img ,.header-artboard3 .container-banner img{opacity:0;}
+.header-artboard2  .menu-toggle,.header-artboard3  .menu-toggle{z-index:55}
+.header-artboard2 .menu-humburger ,.header-artboard3 .menu-humburger{top:15%}
+
+.why-chose-salalem h3{font-size:35px;padding-top:15px;font-family: 'lato-bold';margin-bottom:25px;}
+.why-chose-salalem .items-container .item .img-contain{text-align:center}
+.why-chose-salalem .items-container .item{text-align:center;margin-top:60px;}
+.why-chose-salalem .items-container .item .img-contain{    min-height: 110px;}
+.why-chose-salalem .items-container .item h3{font-size:20px;margin-top:15px;}
+.why-chose-salalem .items-container .item p{font-size:12px;}
+.why-chose-salalem .items-container .item .img-contain img{max-width:80px;display:inline-block;height:auto;}
+.salalem-platform{background-color:#ececec;padding:15px;text-align:center}
+.salalem-platform .img-contain{text-align:center;margin-top:40px;margin-bottom:30px;min-height: 115px;}
+.salalem-platform .img-contain img {display:inline-block;max-width:300px;}
+.salalem-platform  p{margin-bottom:20px;font-size: 17px;}
+
+.header-artboard3 .container-banner{position:relative}
+.header-artboard3 .container-banner:before{  content: '';
+    background-image: url(../images/header-banner3.png);
+    position: absolute;
+    right: 0px;
+    top: -212px;
+    height: 140%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 145% 110%;
+}
+
+.gray-background{background-color:#ececec;padding-top:35px;}
+.process-img img {max-width: 400px;
+    float: right;z-index:3}
+.container-artborad3 .gray-background article{margin-top:100px;}
+.container-artborad3 .gray-background article .col-md-6{margin-bottom:50px;}
+.container-artborad3 .gray-background article .col-md-6 .process-desc{position:absolute;bottom:0px;}
+.container-artborad3 .gray-background article .col-md-6 .process-desc h3{font-weight:bold}
+.container-artborad3 .gray-background article .col-md-6 .right-desc{right:15%;}
+.container-artborad3 .gray-background article .col-md-6 .left-desc{left:15%;}
+.container-artborad3 .gray-background article .salalem-process{position:relative}
+.container-artborad3 .gray-background article .salalem-process-right:before{
+      content: '';
+    background-image: url(../images/salalem-right.png);
+    position: absolute;
+    height: 100%;
+    width: 109%;
+    top: 65%;
+    left: -21%;
+    background-size: 60% 100%;
+    background-repeat: no-repeat;
+}
+
+.container-artborad3 .gray-background article .salalem-process-left:before{
+      content: '';
+    background-image: url(../images/salalem-left.png);
+    position: absolute;
+    height: 100%;
+    width: 109%;
+    top: 65%;
+    right: -85%;
+    background-size: 60% 98%;
+    background-repeat: no-repeat;
+}
+
+ .container-artborad3 .gray-background article .col-md-6 .process-desc:before{
+content: '';
+    background-image: url(../images/cloud.png);
+    position: absolute;
+    right: -50%;
+    top: -75%;
+    height: 68%;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: 94% 45%;
+ }
+
+
+  .container-artborad3 .gray-background article .col-md-6 .process-desc:after{
+content: '';
+    background-image: url(../images/cloud.png);
+    position: absolute;
+    left: 0px;
+    bottom: -75%;
+    height: 68%;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: 94% 45%;
+ }
+
+  .container-artborad4{padding-top:25px;}
+  .basic-courses .title{font-weight:bold;margin-bottom:30px;padding-top:40px;}
+  .basic-courses .desc{text-align:center;font-size:16px;}
+  .number-courses .num{ width: 35px;
+    height: 35px;
+    background-color: #d2d2d2;
+    color: #000;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    font-size:16px;
+        padding-top: 5px;
+    color: #9e9e9e;
+    letter-spacing: 2px;}
+  .number-courses .name{margin-top:20px;font-weight:bold;font-size:12px}
+  .basic-courses .row{margin:0px;}
+  .basic-courses .row .col-md-2{margin-bottom:50px;}
+  .black-background{background-color:#333;color:#fff}
+   .black-background .number-courses .num{color:#000;background-color:#a7a7a7}
+   .black-background .desc{color:#aaa}
+  .black-background .title{padding-top:80px;}
+  .basic-courses{padding: 25px;}
+
+
+
+
+
+@media only screen and (max-width:768px)
+{
+    .content-banner,.our-services-desc{position:static}
+    .footer-content{text-align:center}
+    .our-services{text-align:center}
+    header{margin-bottom:50px;}
+    .we-work-with-container h3, .our-services h3, .unique-training-ex h3,
+     .who-chose-salalem h3 ,.why-chose-salalem h3 {margin-bottom:30px;}
+    .container-artborad3 .gray-background article .salalem-process-left:before{background-image:none;    position: static;}
+   .container-artborad3 .gray-background article .salalem-process-right:before{background-image:none;    position: static;}
+   .container-artborad3 .gray-background article .col-md-6 .process-desc{position:static}
+    .container-artborad3 .gray-background article .col-md-6 .process-desc:before {background-image:none;    position: static;}
+     .container-artborad3 .gray-background article .col-md-6 .process-desc:after {background-image:none;    position: static;}
+     .basic-courses{text-align:center}
+}
